@@ -1,0 +1,50 @@
+
+
+.home{
+    display: flex;
+    align-items: center;
+    background-color: rgb(122, 181, 162);
+width: 100;
+min-height: 100;
+justify-content: center;
+flex-direction: column;
+
+}
+.container{
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgb(170, 252, 230);
+    font-size: 18px;
+    border-radius: 50PX;
+}
+
+
+.btn1{
+    background-color: aqua;
+}
+
+
+.btn2{
+    background-color: rgb(213, 7, 7);
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the container take up the full viewport height */
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    padding: auto;
+    padding-top: 30px;
+    max-width: 80%; /* Adjust this value as needed */
+    /* Add other container styles as necessary */
+  }
+  

@@ -1,0 +1,25 @@
+<div class="home>">
+   <div class="content">
+   <div class="container">
+    <h2>To-Do List</h2>
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="newTodo"
+      (keypress)="validateInput($event)"
+      placeholder="Enter a new To-Do"
+    />
+    <button class="btn1" (click)="addTodo()">Add</button>
+    <ul class="list-group mt-3">
+      <li
+        class="list-group-item"
+        *ngFor="let todo of todos; let i = index"
+      >
+        {{ todo }}
+        <button class="btn2" (click)="removeTodo(i)">Delete</button>
+      </li>
+    </ul>
+    </div> 
+  </div>
+</div>
+  
